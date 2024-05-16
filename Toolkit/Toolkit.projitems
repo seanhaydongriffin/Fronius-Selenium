@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>2aa1c026-a931-4522-a339-672ac1ebceab</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Toolkit</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AppConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Chrome.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Command.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DateTime.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dictionary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HTTP.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Identifier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Selenium\HttpTestObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UrlEncodedString.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JSON.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Log.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StringEx.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Timer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Directory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)File.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Selenium\BrowserTestObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Selenium\WebTestObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Window.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Xml.cs" />
+  </ItemGroup>
+</Project>
