@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Toolkit", "Toolkit\Toolkit.shproj", "{2AA1C026-A931-4522-A339-672AC1EBCEAB}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UI", "UI\UI.shproj", "{9237B8CC-C734-4DB0-99F7-572C8612ACC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FroniusGetChartData", "FroniusGetChartData\FroniusGetChartData.csproj", "{009C08D1-8DF3-41B8-8DB7-DDBD54B239C3}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Toolkit\Toolkit.projitems*{009c08d1-8df3-41b8-8db7-ddbd54b239c3}*SharedItemsImports = 4
+		UI\UI.projitems*{009c08d1-8df3-41b8-8db7-ddbd54b239c3}*SharedItemsImports = 4
+		Toolkit\Toolkit.projitems*{2aa1c026-a931-4522-a339-672ac1ebceab}*SharedItemsImports = 13
+		UI\UI.projitems*{9237b8cc-c734-4db0-99f7-572c8612acc3}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{009C08D1-8DF3-41B8-8DB7-DDBD54B239C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{009C08D1-8DF3-41B8-8DB7-DDBD54B239C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{009C08D1-8DF3-41B8-8DB7-DDBD54B239C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{009C08D1-8DF3-41B8-8DB7-DDBD54B239C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31DE8C0E-1702-43D3-B615-8A5D0230CF97}
+	EndGlobalSection
+EndGlobal
